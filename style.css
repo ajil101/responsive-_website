@@ -40,6 +40,6 @@ svg {
 }
 
 .wrapper {
-  width: calc(100% - 48px);
+  width: min(calc(100% - 48px), calc(1200 / 16 * 1rem));
   margin-inline: auto;
 }
